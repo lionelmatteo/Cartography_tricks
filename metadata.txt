@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Cartography Tricks
+qgisMinimumVersion=2.0
+description=Do some tricks for a great cartography
+version=0.1
+author=MATTEO Lionel
+email=matteo@geoazur.unice.fr
+
+about=This plugin is usefull to cartography structures on landscape such as faults which need to use an hillshade view with an artificial sun. This plugin provide an hillshade view "on fly", so you can change the sun Azimuth and Altitude directly without updating the style and closing it to interact with the raster. Copyright to Lionel MATTEO - PhD. student at GEOAZUR Laboratory, funding from Thales, OCA in collaboration with Inria. Contact : matteo@geoazur.unice.fr
+
+tracker=https://github.com/lionelmatteo/Cartography_tricks.git
+repository=https://github.com/lionelmatteo/Cartography_tricks.git
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=
+
+homepage=
+category=Raster
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
